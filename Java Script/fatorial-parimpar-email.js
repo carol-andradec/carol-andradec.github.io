@@ -26,13 +26,11 @@ function verificaemail(){
 
   var RegExpEmail = /^\w*(\.\w*)?@[a-z].[a-z]+(\.[a-z]+)?$/;
 
-  if(email.search(RegExpEmail) !=-1)                                                     //Outra forma de escrever     /[0-9]{3}\.[0-9]\.[0-9]\-[0-9]{2}/;
-    {
-      alert('Email Válido')
+  if(email.search(RegExpEmail) !=-1){
+      alert('Email Válido');
     }
-  else
-    {
-      alert('Email Inválido')
+  else{
+      alert('Email Inválido');
     }
 
 }
